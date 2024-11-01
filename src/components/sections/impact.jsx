@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import HomePageData from "@/fakeDatas/HomePageFakes";
+import Image from "next/image";
 
 function ImpactStat({ number, description }) {
     return (
@@ -55,7 +56,7 @@ function ImpactImageSlider({ images }) {
                         key={index}
                         className="w-1/2 h-3/4 flex-shrink-0 transition-skew duration-100 ease-out"
                     >
-                        <img src={image.src} alt={image.alt} className="w-full h-full object-cover rounded-lg" />
+                        <Image src={image.src} alt={image.alt} className="w-full h-full object-cover rounded-lg" />
                     </div>
                 ))
             ) : (

@@ -1,6 +1,7 @@
 // components/Slideshow.js
 
 "use client";
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 const slidesData = [
@@ -67,7 +68,7 @@ export default function Slideshow() {
                 loop
               />
             ) : (
-              <img
+              <Image
                 src={slide.src}
                 alt={`Slide ${index + 1}`}
                 className="object-cover w-full h-full"
