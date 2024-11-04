@@ -2,12 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        remotePatterns: [
-            {
-                protocol: 'https',
-                hostname: 'shecancode-website-dev.vercel.app',
-            },
-        ],
+        domains: ['shecancode-website-dev.vercel.app', 'res.cloudinary.com'],
     },
 };
 

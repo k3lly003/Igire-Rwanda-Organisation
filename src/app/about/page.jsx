@@ -1,10 +1,9 @@
-import WhatWeDo from '@/components/sections/WhatWeDo'
 import React from 'react'
 
 const page = () => {
   return (
     <>
-      <div><WhatWeDo/></div>    
+     <h1>about page</h1>
     </>
   )
 }

@@ -114,11 +114,11 @@ const HomePageData = {
         ],
     
         images: [
-            { src: "/presenting.jpg", alt: 'Succes stories' },
-            { src: "/hero.png", alt: 'Succes stories' },
-            { src: "/shecancode1.jpg", alt: 'Succes stories' },
-            { src: "/vistors.jpg", alt: 'Succes stories' },
-            { src: "/img.png", alt: 'Succes stories' },
+            { src: "https://res.cloudinary.com/drfzbtbzi/image/upload/v1730473374/suceess-2.jpg", alt: 'Succes stories' },
+            { src: "https://res.cloudinary.com/drfzbtbzi/image/upload/v1730473384/scc_women_day.jpg", alt: 'Succes stories' },
+            { src: "https://res.cloudinary.com/drfzbtbzi/image/upload/v1730672242/scc-3.jpg", alt: 'Succes stories' },
+            { src: "https://res.cloudinary.com/drfzbtbzi/image/upload/v1730672249/sc-4.jpg", alt: 'Succes stories' },
+            { src: "https://res.cloudinary.com/drfzbtbzi/image/upload/v1730473306/suceess-1.png", alt: 'Succes stories' },
         ]
     },
     WhatWeDoSectionData: {
@@ -138,6 +138,12 @@ const HomePageData = {
             // You can add more data items as needed
         ],
         paragraphData : "Igire Rwanda Organization is dedicated to empowering young girls and women, providing them with the skills, resources, and support they need to thrive. Through education, mentorship, and hands-on training programs, Igire Rwanda helps these women unlock their potential, fostering their confidence and capabilities to lead in their communities. By offering opportunities in areas like entrepreneurship, technology, and leadership, the organization accelerates their journey toward economic independence and personal growth. At Igire Rwanda, we believe that empowered women are key to building a brighter, more inclusive future for all."
+    },
+    HistoryBgData: {
+        title: "Our Background",
+        description: "Igire Rwanda Organization is dedicated to empowering young girls and women, providing them with the skills, resources, and support they need to thrive. Through education, mentorship, and hands-on training programs, Igire Rwanda helps these women unlock their potential, fostering their confidence and capabilities to lead in their communities. By offering opportunities in areas like entrepreneurship, technology, and leadership, the organization accelerates their journey toward economic independence and personal growth. At Igire Rwanda, we believe that empowered women are key to building a brighter, more inclusive future for all.",
+        btn: "Read more",
+        src: "https://res.cloudinary.com/drfzbtbzi/video/upload/v1730670533/igire-video.mp4" || null,
     }
 };
 

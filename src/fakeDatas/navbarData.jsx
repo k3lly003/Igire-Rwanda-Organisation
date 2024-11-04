@@ -4,10 +4,10 @@ export const navbarData = {
     title: "IRO",
     links: [
         { label: "HOME", href: "/" },
-        { label: "ABOUT", href: "/" },
-        { label: "PROGRAMS", href: "/" },
-        { label: "CAREER", href: "/" },
-        { label: "CONTACT", href: "/" },
+        { label: "ABOUT", href: "/about" },
+        { label: "PROGRAMS", href: "/programs" },
+        { label: "CAREER", href: "/career" },
+        { label: "CONTACT", href: "/contact" },
     ],
     connectButtonText: "CONNECT",
 };
