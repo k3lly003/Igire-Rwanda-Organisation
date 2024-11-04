@@ -1,6 +1,7 @@
 import { FaFacebookF, FaLinkedinIn, FaYoutube, FaTwitter } from 'react-icons/fa';
 import Container from '../components/container';
 import { quickLinks, companyLinks, visionText, tweets } from '../fakeDatas/footerData';
+import Image from 'next/image';
 
 const Footer = () => {
     return (
@@ -32,7 +33,7 @@ const Footer = () => {
                         {/* Logo and Vision Section */}
                         <div className="md:w-1/3 mb-6 md:mb-0">
                             <div className="mb-4">
-                                <img src="/logo.png" alt="Logo" className="w-20 h-auto" />
+                                <Image src="/logo.png" alt="Logo" className="w-20 h-auto" />
                             </div>
                             <h3 className="font-bold text-2xl">Our vision</h3>
                             <p className="text-white text-xl">{visionText}</p>
