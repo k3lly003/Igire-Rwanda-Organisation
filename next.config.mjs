@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-        domains: ['shecancode-website-dev.vercel.app', 'res.cloudinary.com'],
+        domains: ['shecancode-website-dev.vercel.app', 'res.cloudinary.com', 'media.licdn.com', 'firebasestorage.googleapis.com'],
     },
 };
 

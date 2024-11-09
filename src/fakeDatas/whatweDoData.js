@@ -1,12 +1,12 @@
 export const sampleData = [
   {
-    title: "Empowerment Programs",
+    title: "SheCanCode Program",
     description: "Our empowerment programs provide training and mentorship to young women, equipping them with essential skills.",
     buttonLabel: "Learn More",
     slideshowComponent: "Slideshow"
   },
   {
-    title: "Entrepreneurship Training",
+    title: "AWE Program",
     description: "We offer comprehensive training in entrepreneurship, helping women start and manage their businesses.",
     buttonLabel: "Join Now",
     slideshowComponent: "Slideshow2"

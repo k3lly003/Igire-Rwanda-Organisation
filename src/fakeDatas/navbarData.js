@@ -1,7 +1,8 @@
 export const navbarData = {
     logoSrc: "/logo.png",
     logoAlt: "IRO Logo",
-    title: "IRO",
+    title1: "IGIRE RWANDA",
+    title2: "Organisation",
     links: [
         { label: "HOME", href: "/" },
         { label: "ABOUT", href: "/about" },

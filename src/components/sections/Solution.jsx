@@ -1,21 +1,21 @@
-
-
 const Solution = ({ SolutionSectionData }) => {
   const { description, btn1, btn2 } = SolutionSectionData;
   return (
-    <>
-      <div className="flex justify-center">
-      <div className="bg-black py-[4rem] px-[10rem] max-w-[70%] text-center flex flex-col gap-5 font-ibm">
+    <div className="bg-black flex justify-center">
+      <div className="py-10 px-6 sm:px-10 md:px-20 lg:px-40 max-w-[89rem] text-center flex flex-col gap-5 font-ibm">
         <div>
-          <p className="text-white font-ibm text-xl">{description}</p>
+          <p className="text-white text-base sm:text-lg md:text-xl">{description}</p>
         </div>
-        <div>
-          <button className="bg-white border p-3 mr-5">{btn1}</button>
-          <button className="text-white border p-3">{btn2}</button>
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-5 justify-center">
+          <button className="bg-white text-black font-semibold border p-3 sm:mr-5 w-full sm:w-auto">
+            {btn1}
+          </button>
+          <button className="text-white font-semibold border p-3 w-full sm:w-auto">
+            {btn2}
+          </button>
         </div>
       </div>
-      </div>
-    </>
+    </div>
   );
 };
 

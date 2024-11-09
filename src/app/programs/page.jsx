@@ -1,12 +1,23 @@
-import React from 'react'
+import DefaultBanner from "@/components/DefaultBanner";
+import React from "react";
+import ProgramsPageData from "@/fakeDatas/ProgramPageFakes";
+import ProgramsDetailed from "@/components/sections/ProgramsDetailed";
 
-const page = () => {
+const Page = () => {
+  const { bannerData, programs } = ProgramsPageData;
+
   return (
     <>
-      <h1>programs page</h1>
+      <div className="w-full">
+        <div>
+          <DefaultBanner title={bannerData.title} backgroundImage={bannerData.backgroundImage} />
+        </div>
+        <div>
+          <ProgramsDetailed programs={programs} />
+        </div>
+      </div>
     </>
+  );
+};
 
-    )
-}
-
-export default page
+export default Page;

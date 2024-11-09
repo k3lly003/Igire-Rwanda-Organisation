@@ -1,7 +1,6 @@
 // components/Slideshow.js
 
 "use client";
-import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 const slidesData = [
@@ -12,7 +11,7 @@ const slidesData = [
   },
   {
     type: 'image',
-    src: 'https://res.cloudinary.com/drfzbtbzi/image/upload/v1730473384/scc_women_day.jpg',
+    src: 'https://res.cloudinary.com/drfzbtbzi/image/upload/v1730473340/scc-1.jpg',
     caption: 'ShecanCode Aluminus',
   },
   {
@@ -68,7 +67,7 @@ export default function Slideshow() {
                 loop
               />
             ) : (
-              <Image
+              <img
                 src={slide.src}
                 alt={`Slide ${index + 1}`}
                 className="object-cover w-full h-full"

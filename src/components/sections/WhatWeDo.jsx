@@ -10,14 +10,14 @@ export default function WhatWeDo() {
   const whatWeDoData = getWhatWeDoData(); 
   return (
     <section className="py-12">
-      <div className="text-center mb-10">
+      <div className="flex flex-col justify-center items-center mb-10">
         <h2 className="text-4xl font-bold text-black">What We Do</h2>
-        <p className="mt-4 text-black max-w-[60%] mx-auto text-xl">{paragraphData}</p>
+        <p className="mt-4 text-black max-w-[90rem] mx-auto text-xl text-center">{paragraphData}</p>
       </div>
       {whatWeDoData.map((section, index) => {
         const SlideshowComponent = slideshowComponents[section.slideshowComponent];
         return (
-          <div key={index} className="max-w-7xl mx-auto bg-white rounded-lg shadow-lg p-6 md:flex md:space-x-8 mt-8">
+          <div key={index} className="max-w-[90rem] mx-auto bg-white rounded-lg shadow-lg p-6 md:flex md:space-x-8 mt-8">
             <div className="md:flex-1">
               <h3 className="text-xl font-semibold text-gray-800">{section.title}</h3>
               <p className="mt-4 text-black">{section.description}</p>

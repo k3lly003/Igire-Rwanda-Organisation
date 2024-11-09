@@ -7,7 +7,7 @@ export default function HistoricalBackground({HistoryBgData}) {
       <div className="container mx-auto px-2 py-2">
         <div className="grid md:grid-cols-2 items-center">
           <div className="relative mb-8 md:mb-0">
-            <div className="bg-black p-8 text-white rounded-tl-lg rounded-bl-lg font-ibm">
+            <div className="bg-black p-16 text-white rounded-tl-lg rounded-bl-lg font-ibm">
               <h1 className="text-4xl font-bold mb-6">
               {title}
               </h1>
@@ -15,7 +15,7 @@ export default function HistoricalBackground({HistoryBgData}) {
                 {description}
               </p>
             </div>
-            <button className="absolute -bottom-6 left-8 bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors flex items-center shadow-md font-ibm text-lg">
+            <button className="relative -bottom-6 bg-white text-black px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors flex items-center shadow-md font-ibm text-xl">
               {btn}
               <svg
                 className="w-4 h-4 ml-2"

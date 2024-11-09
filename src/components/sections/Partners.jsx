@@ -6,7 +6,7 @@ const Partners = ({PartnersData}) => {
   return (
     <>
       <div className="flex flex-col justify-center items-center font-ibm mb-52">
-        <div className="w-[70%] flex flex-col gap-5">
+        <div className="max-w-[94rem] flex flex-col justify-center gap-5">
           <h2 className="font-bold text-2xl">{title}</h2>
           <p className="text-xl">
             {description}

@@ -1,7 +1,6 @@
 import { FaFacebookF, FaLinkedinIn, FaYoutube, FaTwitter } from 'react-icons/fa';
-import Container from '../components/container';
+import Container from './container';
 import { quickLinks, companyLinks, visionText, tweets } from '../fakeDatas/footerData';
-import Image from 'next/image';
 
 const Footer = () => {
     return (
@@ -33,7 +32,7 @@ const Footer = () => {
                         {/* Logo and Vision Section */}
                         <div className="md:w-1/3 mb-6 md:mb-0">
                             <div className="mb-4">
-                                <Image src="/logo.png" alt="Logo" className="w-20 h-auto" />
+                                <img src="/logo.png" alt="Logo" className="w-20 h-auto" />
                             </div>
                             <h3 className="font-bold text-2xl">Our vision</h3>
                             <p className="text-white text-xl">{visionText}</p>
@@ -61,13 +60,13 @@ const Footer = () => {
 
                         {/* Tweets Section */}
                         <div className="md:w-1/3">
-                            <h4 className="font-semibold text-2xl">Tweets</h4>
-                            <p className="text-white text-xl">Stay tuned for our latest tweets and updates here.</p>
-                            <div className="text-white mt-4 text-xl">
+                            {/* <h4 className="font-semibold text-2xl">Tweets</h4>
+                            <p className="text-white text-xl">Stay tuned for our latest tweets and updates here.</p> */}
+                            {/* <div className="text-white mt-4 text-xl">
                                 {tweets.map((tweet, index) => (
                                     <p key={index}>{tweet}</p>
                                 ))}
-                            </div>
+                            </div> */}
                             {/* Social Icons */}
                             <div className="flex space-x-4 mt-4">
                                 <FaTwitter size={20} className="text-white hover:text-blue-300 cursor-pointer" />

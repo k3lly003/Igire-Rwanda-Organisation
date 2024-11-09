@@ -56,7 +56,7 @@ function ImpactImageSlider({ images }) {
                         key={index}
                         className="w-1/2 h-3/4 flex-shrink-0 transition-skew duration-100 ease-out"
                     >
-                        <Image src={image.src} alt={image.alt} className="w-full h-full object-cover rounded-lg" />
+                        <Image src={image.src} width={100} height={100} alt={image.alt} className="w-full h-full object-cover rounded-lg" />
                     </div>
                 ))
             ) : (
