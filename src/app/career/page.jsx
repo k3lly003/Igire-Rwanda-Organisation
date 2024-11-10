@@ -164,7 +164,7 @@ const Page = () => {
                 View full details <FaArrowRight className="w-5" />
               </a>
             </div>
-            <div className="bg-white p-6 rounded-lg shadow-lg bg-gray-50">
+            <div className="p-6 rounded-lg shadow-lg bg-gray-50">
               <h3 className="text-xl font-bold mb-2">Lorem</h3>
               <p className="text-gray-600 mb-4">Lorem ipsum</p>
               <div className="flex items-center mb-4">

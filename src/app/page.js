@@ -1,5 +1,5 @@
 import CallForAction from "@/components/sections/CallForAction";
-import HeroSection from "@/components/sections/heroSection.jsx";
+import HeroSection from "@/components/sections/heroSection";
 import Partners from "@/components/sections/Partners";
 import Solution from "@/components/sections/Solution";
 import HomePageData from "@/fakeDatas/HomePageFakes";
