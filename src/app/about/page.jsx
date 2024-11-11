@@ -2,7 +2,7 @@ import DefaultBanner from '@/components/DefaultBanner';
 import React from 'react';
 import AboutPageFakes from '@/fakeDatas/AboutPageFakes';
 import Founders from '@/components/sections/Founders'
-import ImpactSection from '@/components/sections/Impact'
+import ImpactSection from '@/components/sections/ImpactSection'
 import HomePageFakes from '@/fakeDatas/HomePageFakes'
 import Image from 'next/image';
 import Link from 'next/link';

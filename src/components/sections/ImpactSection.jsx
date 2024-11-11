@@ -83,7 +83,7 @@ function ImpactImageSlider({ images }) {
     );
 }
 
-export default function ImpactSection() {
+function ImpactSection() {
     const { impactStats, images } = HomePageData.ImpactData;
 
     return (
@@ -100,3 +100,5 @@ export default function ImpactSection() {
         </section>
     );
 }
+
+export default ImpactSection
