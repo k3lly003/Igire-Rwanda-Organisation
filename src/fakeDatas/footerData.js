@@ -1,18 +1,18 @@
 export const quickLinks = [
-    { label: "Expertise", url: "#" },
-    { label: "Locations", url: "#" },
-    { label: "Insights", url: "#" },
-    { label: "Media centre", url: "#" },
+    { label: "About", url: "/programs" },
+    { label: "Programs", url: "/programs" },
+    { label: "Jobs", url: "/career" },
+    { label: "Contact Us", url: "/contact" },
 ];
 
 export const companyLinks = [
-    { label: "About", url: "#" },
-    { label: "Jobs", url: "#" },
-    { label: "Policies", url: "#" },
-    { label: "Contact us", url: "#" },
+    { label: "About", url: "/about" },
+    { label: "Jobs", url: "/programs" },
+    { label: "Policies", url: "/career" },
+    { label: "Contact us", url: "/contact" },
 ];
 
-export const visionText = `Our vision is that people and their societies can resolve conflicts without violence, working together to build sustainable and inclusive peace.`;
+export const visionText = `Our vision is to create a future where all Rwandan youth, especially women, are empored with digital skills 7 opportunities, driving sustainable growth and innovationin their community and beyond.`;
 
 export const tweets = [
     "Tweet 1: Example tweet content here...",

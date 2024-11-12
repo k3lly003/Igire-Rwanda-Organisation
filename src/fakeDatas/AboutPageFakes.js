@@ -5,8 +5,8 @@ const AboutPageFakes = {
     },
 
     topSection: {
-        description: "Learn web development and land a job in the tech industry with 1-on-1 guidance from an expert mentor and career coach. This program goes beyond teaching coding skills to career services you need to help you land a high-paying job in the tech industry. You spend time during the course with the career service team to help you reach your job search and job preparation guidance.Attending this program, you can expect to work hard, pre-work(homeworks), assignments, real-life projects and project presentations, code review with technical facilitators, ",
-        mapImage: "/students.jpg",
+        description: "Igire Rwanda Organization (IRO) is a non profit committed to transforming the lives of youth, with a focus on women, by providing access to digital skills, mentorship, and meaningful job opportunities.",
+        mapImage: "/map.svg",
     },
 
     programs: [
@@ -23,15 +23,15 @@ const AboutPageFakes = {
     logos: [
         {
             name: "Logo 1",
-            src: "/She Can Code Logo.png", // Replace with actual logo path
+            src: "/She Can Code Logo.png",
         },
         {
             name: "logo 2",
-            src: "/logo.png", // Replace with actual logo path
+            src: "/logo.png", 
         }
     ],
     foundersData: {
-        title: "Meet Our Founders",
+        title: "Meet Our Team",
         founders: [
           {
             name: "Mbanda Innocent",

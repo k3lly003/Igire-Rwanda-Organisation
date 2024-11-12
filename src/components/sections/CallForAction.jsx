@@ -5,11 +5,11 @@ const CallForAction = ({ CallForActionData }) => {
   return (
     <>
       <div className="md:flex md:justify-center">
-        <div className="w-full border border-black md:py-[3rem] md:px-[10rem] text-center flex flex-col gap-5 font-ibm">
+        <div className="w-full border border-black py-5 md:py-[5rem] md:px-[10rem] text-center flex flex-col justify-center items-center gap-5 font-ibm">
           <div>
-            <h2 className="text-2xl font-bold">{title}</h2>
+            <h2 className="text-4xl font-bold">{title}</h2>
           </div>
-          <div>
+          <div className="max-w-[90rem]">
             <p className="font-ibm text-xl">{description}</p>
           </div>
           <div>

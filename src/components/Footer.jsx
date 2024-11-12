@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-black text-white py-8 px-6 md:px-[1.563rem] font-ibm">
             <Container>
                 {/* Signup Section */}
-                <div className="flex flex-col md:flex-row justify-between items-center mb-6">
+                <div className="flex flex-col md:flex-row justify-between items-center mb-6 px-2">
                     <div className="mb-4 md:mb-0">
                         <h2 className="font-bold text-2xl">Sign up for updates</h2>
                         <p className="text-white w-3/3 text-xl">
@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
 
                 {/* Main Footer Content */}
-                <div className="border-t border-gray-700 pt-6">
+                <div className="border-t border-gray-700 pt-6 px-2">
                     <div className="flex flex-col md:flex-row justify-between mb-6">
                         {/* Logo and Vision Section */}
                         <div className="md:w-1/3 mb-6 md:mb-0">

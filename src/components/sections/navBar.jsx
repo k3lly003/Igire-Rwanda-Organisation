@@ -18,7 +18,7 @@ export default function Navbar() {
             width={100}
             height={100}
             alt={navbarData.logoAlt}
-            className="md:h-16 h-10"
+            className="md:h-20 h-10"
           />
           <div className="flex flex-col">
             <h2 className="text-sm">{navbarData.title1}</h2>
