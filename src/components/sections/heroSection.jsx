@@ -1,12 +1,13 @@
 import { RiArrowRightSLine } from "react-icons/ri";
 import { heroData } from "@/fakeDatas/heroData";
 import Image from "next/image";
+import heroImage from '../../../public/scc15.jpg'
 
 export default function HeroSection() {
     return (
         <section className="lg:flex lg:justify-center w-full mb-20">
             <div className="w-full flex flex-col-reverse justify-center items-center md:flex-row md:container pb-20">
-              <div className="relative sm:text-center sm:gap-5 items-center md:text-start left-0 bottom-16 md:bottom-0 bg-black text-white flex flex-col justify-evenly px-10 py-20 w-[85%] md:w-[40%] md:left-12">
+              <div className="relative sm:text-center sm:gap-5 items-center md:text-start left-0 bottom-16 md:bottom-0 bg-black text-white flex flex-col justify-evenly px-10 py-32 w-[85%] md:w-[40%] md:left-12">
                     <h2 className="text-lg md:text-4xl font-bold leading-tight">
                          {heroData.title}
                     </h2>
@@ -22,7 +23,7 @@ export default function HeroSection() {
               </div>
               <div className="w-full md:w-[screen] md:border lg:border-0 xl:w-[90%]">
                     <Image
-                        src={heroData.imageSrc}
+                        src={heroImage}
                         alt={heroData.imageAlt}
                         width={10}
                         height={10}
