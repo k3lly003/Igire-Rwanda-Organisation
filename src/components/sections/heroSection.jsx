@@ -26,7 +26,7 @@ export default function HeroSection() {
                         alt={heroData.imageAlt}
                         width={10}
                         height={10}
-                        className="w-full object-scale-down md:object-fill shadow-md"
+                        className="w-full md:object-fill shadow-md"
                     />
               </div>
             </div>
