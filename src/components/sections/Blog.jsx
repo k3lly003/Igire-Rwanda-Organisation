@@ -9,7 +9,7 @@ export default function BlogPage() {
     
     <div className="container mx-auto font-ibm">
       <div className=" text-4xl font-extrabold text-center pb-10">Featured stories</div>
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 px-12">
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {Articles.map((article) => (
           <div key={article.id} className="bg-white rounded-lg shadow-md overflow-hidden group hover:shadow-lg transition-shadow duration-300">
             <div className="aspect-w-16 aspect-h-9 relative overflow-hidden ">

@@ -51,7 +51,7 @@ export default function BlogPost() {
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back to Blog
       </Link>
-      <article className="max-w-2xl mx-auto">
+      <article className="max-w-screen-2xl mx-auto">
         <Image
           src={article.image.source}
           alt={article.image.alt}

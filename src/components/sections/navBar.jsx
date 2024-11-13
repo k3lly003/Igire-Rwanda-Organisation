@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-white sticky top-0 z-50 flex justify-center px-6 py-6 shadow-md font-ibm w-full">
-      <div className=" flex justify-between w-full md:max-w-[90rem]">
+      <div className=" flex justify-between w-full md:max-w-screen-2xl">
         <div className="flex items-center">
           <Image
             src={navbarData.logoSrc}
