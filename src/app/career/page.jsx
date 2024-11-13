@@ -84,20 +84,23 @@ const Page = () => {
         </div>
 
         {/* Job Openings Section */}
+
         <div
           id="job-openings"
-          className="flex flex-col pb-14 mx-32 font-ibm w-[90rem]"
+          className="flex flex-col pb-14 px-4 sm:px-6 md:px-8 lg:px-16 w-full max-w-screen-2xl font-ibm"
         >
-          <div className="flex justify-start align-start mb-8">
-            <div>
-              <h2 className="text-2xl font-bold py-6">Current job openings</h2>
-              <select className="border border-black rounded-md p-2">
+          <div className="flex justify-start align-start mb-8 w-full">
+            <div className="w-full flex justify-between items-center col mb-8">
+              <h2 className="text-xl md:text-2xl font-bold py-6">
+                Current Job Openings
+              </h2>
+              <select className="border border-black rounded-md p-2 mt-2 md:mt-0 md:ml-4">
                 <option value="">All departments</option>
                 <option value="hr">Human Resources</option>
                 <option value="it">Program Manager</option>
                 <option value="marketing">Marketing</option>
-                <option value="marketing">Course Facilitator</option>
-                <option value="marketing">Assistant Course Facilitator</option>
+                <option value="facilitator">Course Facilitator</option>
+                <option value="assistant">Assistant Course Facilitator</option>
               </select>
             </div>
           </div>
@@ -186,7 +189,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-
+        
         {/* Subscribe Section */}
         <div className="py-10 items-center text-center font-ibm">
           <h2 className="text-2xl font-bold mb-4">SUBSCRIBE</h2>
