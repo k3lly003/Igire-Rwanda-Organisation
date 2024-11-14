@@ -1,7 +1,6 @@
 import { RiArrowRightSLine } from "react-icons/ri";
 import { heroData } from "@/fakeDatas/heroData";
 import Image from "next/image";
-import heroImage from '../../../public/scc15.jpg'
 
 export default function HeroSection() {
     return (
@@ -23,7 +22,7 @@ export default function HeroSection() {
               </div>
               <div className="w-full md:w-[screen] md:border lg:border-0 xl:w-[90%]">
                     <Image
-                        src={heroImage}
+                        src={heroData.imageSrc}
                         alt={heroData.imageAlt}
                         width={10}
                         height={10}

@@ -88,7 +88,7 @@ function ImpactSection() {
 
     return (
         <section className="bg-black text-white pt-20 pb-20 font-ibm">
-            <div className="max-w-screen-2xl mx-auto px-4">
+            <div className="max-w-screen-xl mx-auto px-4">
                 <h2 className="text-4xl text-center md:text-start font-bold mb-10">Our impact in numbers</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 text-xl gap-10 mb-12">
                     {impactStats.map((stat, index) => (

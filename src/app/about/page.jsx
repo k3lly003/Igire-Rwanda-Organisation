@@ -21,7 +21,7 @@ const AboutPage = () => {
       </div>
 
       {/* Content Section */}
-      <div className="max-w-screen-2xl mx-auto font-ibm py-8 px-4 md:px-8 lg:px-10">
+      <div className="max-w-screen-xl mx-auto font-ibm py-8 px-4 md:px-8 lg:px-10">
         {/* Top Section with Description and Map Image */}
         <div className="flex flex-col md:flex-row justify-between items-center md:space-x-4 my-10">
           <div className="flex-1 text-black p-4 flex items-center justify-center text-center md:text-left text-xl">

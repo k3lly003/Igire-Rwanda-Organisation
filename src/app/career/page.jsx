@@ -87,7 +87,7 @@ const Page = () => {
 
         <div
           id="job-openings"
-          className="flex flex-col pb-14 px-4 sm:px-6 md:px-8 lg:px-16 w-full max-w-screen-2xl font-ibm"
+          className="flex flex-col pb-14 px-4 sm:px-6 md:px-8 lg:px-16 w-full max-w-screen-xl font-ibm"
         >
           <div className="flex justify-start align-start mb-8 w-full">
             <div className="w-full flex justify-between items-center col mb-8">
