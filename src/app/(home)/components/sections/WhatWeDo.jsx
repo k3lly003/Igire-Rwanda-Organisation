@@ -1,7 +1,7 @@
 // components/WhatWeDo.jsx
 import { getWhatWeDoData, paragraphData } from '@/fakeDatas/whatweDoData';
-import Slideshow from '@/components/Slideshow';
-import Slideshow2 from '@/components/Slideshow2';
+import Slideshow from '../Slideshow';
+import Slideshow2 from '../Slideshow2';
 const slideshowComponents = {
   Slideshow,
   Slideshow2,

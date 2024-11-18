@@ -12,7 +12,7 @@ const Partners = ({PartnersData}) => {
             {description}
           </p>
         </div>
-        <div className="flex justify-center items-center gap-10 flex-wrap mt-16 bg-green-200 max-w-screen-xl">
+        <div className="flex justify-center items-center gap-10 flex-wrap mt-16 max-w-screen-xl">
           {companies &&
             companies.map((logo, index) => (
               <Image

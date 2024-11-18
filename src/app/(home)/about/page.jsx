@@ -1,8 +1,8 @@
-import DefaultBanner from "@/components/DefaultBanner";
+import DefaultBanner from "../components/DefaultBanner";
 import React from "react";
 import AboutPageFakes from "@/fakeDatas/AboutPageFakes";
-import Founders from "@/components/sections/Founders";
-import ImpactSection from "@/components/sections/ImpactSection";
+import Founders from "../components/sections/Founders";
+import ImpactSection from "../components/sections/ImpactSection";
 import HomePageFakes from "@/fakeDatas/HomePageFakes";
 import Image from "next/image";
 import Link from "next/link";
@@ -38,11 +38,12 @@ const AboutPage = () => {
             />
           </div>
         </div>
-        {/* vision and mission */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 my-20 font-ibm">
+        <div className="flex gap-5">
+          {/* vision and mission */}
+        <div className="gap-10 my-20 font-ibm">
           <div className="w-full px-5">
             <div className="flex flex-col justify-center items-center md:justify-start md:items-start gap-5">
-              <Image src="/mission.svg" width={100} height={100} alt="vision" />
+              {/* <Image src="/mission.svg" width={100} height={100} alt="vision" /> */}
               <h1 className="font-extrabold text-2xl">Our Mission</h1>
             </div>
             <div className="py-5">
@@ -54,7 +55,7 @@ const AboutPage = () => {
           </div>
           <div className="w-full px-5">
             <div className="flex flex-col justify-center items-center md:justify-start md:items-start gap-5">
-              <Image src="/vision.svg" width={100} height={100} alt="mission" />
+              {/* <Image src="/vision.svg" width={100} height={100} alt="mission" /> */}
               <h1 className="font-extrabold text-2xl">Our Vision</h1>
             </div>
             <div className="py-5">
@@ -71,32 +72,26 @@ const AboutPage = () => {
         <div className="w-full flex flex-col justify-center items-center">
           <div className="w-full px-5">
             <div className="flex flex-col gap-5 justify-center items-center">
-              <Image src="/values.svg" width={100} height={100} alt="values" />
+              {/* <Image src="/values.svg" width={100} height={100} alt="values" /> */}
               <h1 className="font-extrabold text-2xl">Our Values</h1>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-10">
+            <div className="py-10">
              <div>
                 <p className="font-bold">EMPOWEMENT</p>
                 <p>Enabling youth, especially women, to gain the skills and confidence needed to succeed.</p>
-             </div>
-             <div>
                 <p className="font-bold">INCLUSIVITY</p>
                 <p>Promoting equal access to opportunies, regardless of background or socio-economic status.</p>
-             </div>
-             <div>
                 <p className="font-bold">SUSTAINABILITY</p>
                 <p>Creating lasting impact through programs that promote long-term growth & econimic independence.</p>
-             </div>
-             <div>
                 <p className="font-bold">COLLABORATION</p>
                 <p>Building strong partnerships to maximize impact and create opportunities for the community.</p>
-             </div>
-             <div>
                 <p className="font-bold">INTEGRITY</p>
                 <p>Upholding transparency, accontability, and ethical practices in all our actions .</p>
              </div>
             </div>
           </div>
+        </div>
+
         </div>
         {/* Programs Title */}
         <h2 className="mt-10 text-4xl font-semibold text-center text-black">

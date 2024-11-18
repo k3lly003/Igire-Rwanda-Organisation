@@ -4,7 +4,7 @@ import { IoIosRefresh } from "react-icons/io";
 import { RiUserHeartLine } from "react-icons/ri";
 import { GiUpgrade } from "react-icons/gi";
 import { FaRegClock, FaArrowRight } from "react-icons/fa";
-import DefaultBanner from "@/components/DefaultBanner";
+import DefaultBanner from "../components/DefaultBanner";
 import CareerPageData from "@/fakeDatas/CareerPageData";
 
 const Page = () => {
@@ -19,7 +19,7 @@ const Page = () => {
       </div>
 
       <div className="w-full flex flex-col justify-center items-center">
-        <div className="flex flex-col py-14 mx-28 font-ibm max-w-[90rem]">
+        <div className="flex flex-col py-14 mx-28 font-ibm max-w-screen-xl">
           <div className="text-2xl font-bold text-center pb-12">
             Why you Should Join Our Awesome Team
           </div>
@@ -87,7 +87,7 @@ const Page = () => {
 
         <div
           id="job-openings"
-          className="flex flex-col pb-14 px-4 sm:px-6 md:px-8 lg:px-16 w-full max-w-screen-xl font-ibm"
+          className="flex flex-col pb-14 px-4 sm:px-6 md:px-8 lg:px-5 w-full max-w-screen-xl font-ibm"
         >
           <div className="flex justify-start align-start mb-8 w-full">
             <div className="w-full flex justify-between items-center col mb-8">

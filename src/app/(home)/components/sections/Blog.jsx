@@ -7,7 +7,7 @@ export default function BlogPage() {
 
   return (
     
-    <div className="container mx-auto font-ibm">
+    <div className="container mx-auto font-ibm max-w-screen-xl">
       <div className=" text-4xl font-extrabold text-center pb-10">Featured stories</div>
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {Articles.map((article) => (

@@ -75,48 +75,49 @@ const AboutPageFakes = {
           },
         ],
       },
-      reviewsSectionData: {
-        title: 'Reviews',
-        subTitle: 'What our alumni say about us.',
-        reviews: [
-            {
-                name: 'Vanessa Icyeza',
-                title: 'Full-stack software Developer',
-                description: 'SheCanCODE has changed my life in a way I can not easily explain. First it introduced me to the world of software development, gave the the training and confidence I needed, and then opened my eyes to opportunities available in the software development market. I love SheCanCODE to the point that whenever I get the time, I visit my younger sisters and motivate them.',
-                userAvatar: 'https://firebasestorage.googleapis.com/v0/b/shecancode-website.appspot.com/o/images%2Fvanessa-icyeza.png?alt=media&token=9a8e7b0c-8793-4a99-8806-703a6b67f5b5'
-            },
+      testimonialsData: {
+        title: "Our Alumnis",
+        testimonials: [
+            
             {
                 name: 'Kamikazi Deborah',
-                title: 'Software Developer',
-                description: 'From no experience in Coding to becoming a best performer and later gaining opportunities to join advanced programs and later a job, SheCanCode set me to a trajectory for success, something I believe that I would not be able to get if I did not join the training. I can not stress enough how much SheCanCODE is changing lives.',
-                userAvatar: 'https://avatars.githubusercontent.com/u/142120395?v=4'
+                role: 'Software Developer',
+                image: 'https://avatars.githubusercontent.com/u/142120395?v=4',
+                feedback: 'From no experience in Coding to becoming a best performer and later gaining opportunities to join advanced programs and later a job, SheCanCode set me to a trajectory for success, something I believe that I would not be able to get if I did not join the training. I can not stress enough how much SheCanCODE is changing lives.',
+            },
+            {
+                name: "Doreen Uwase",
+                role: "Software Developer",
+                image: "doreen.jpg", 
+                feedback: "I joined the bootcamp to unlock my true potential and turn my project ideas into reality, with a burning passion for making a difference. My journey at SheCanCODE is paying the way for a future where innovation meets social impact."
             },
             {
                 name: 'Lydia Ingabire',
-                title: 'Technical Team Lead',
-                description: 'As a programmer who has been in the coding industry for a while, taking a mobile development class at SheCanCODE has been both a refresher and a way to broaden my connections. I enjoyed the community of young women at SheCanCODE and the way the leadership of the program is dedicated to make sure every single girl gets exposed as a way to get them out of their confort zone.',
-                userAvatar: 'https://avatars.githubusercontent.com/u/44745855?v=4'
+                role: 'Technical Team Lead',
+                feedback: 'As a programmer who has been in the coding industry for a while, taking a mobile development class at SheCanCODE has been both a refresher and a way to broaden my connections. I enjoyed the community of young women at SheCanCODE and the way the leadership of the program is dedicated to make sure every single girl gets exposed as a way to get them out of their confort zone.',
+                image: 'https://avatars.githubusercontent.com/u/44745855?v=4'
             },
             {
-                name: 'Doreen Uwase',
-                title: 'Software Developer',
-                description: 'I joined the bootcamp to unlock my true potential and turn my project ideas into reality. with a burning passion for making a difference. My jouney at shecancode is paying the way for a future where innovation meets social impact.',
-                userAvatar: '/doreen.jpg'
-            },
-            {
-                name: 'Elyse Umugabe',
-                title: 'Software Tester',
-                description: 'SheCanCODE equiped me with industry level experience that allowed me to secure a job opportunity even before graduating. I am many more of my colleagues at SheCanCODE were able to do so thanks to their ability to simplify even the most complex software development concepts.',
-                userAvatar: '/elyse-umugabe.jpeg'
+                name: 'Vanessa Icyeza',
+                role: 'Full-stack software Developer',
+                feedback: 'SheCanCODE has changed my life in a way I can not easily explain. First it introduced me to the world of software development, gave the the training and confidence I needed, and then opened my eyes to opportunities available in the software development market. I love SheCanCODE to the point that whenever I get the time, I visit my younger sisters and motivate them.',
+                image: 'https://firebasestorage.googleapis.com/v0/b/shecancode-website.appspot.com/o/images%2Fvanessa-icyeza.png?alt=media&token=9a8e7b0c-8793-4a99-8806-703a6b67f5b5'
             },
             {
                 name: 'Liliane Uwase',
-                title: 'Operations Manager',
-                description: 'I can testify that SheCanCODE has been my bridge to accessing job opportunities and intering in the IT industry. Today, I work at SheCanCODE to keep on re-enforcing the good results they have been achieving for many year now.',
-                userAvatar: '/lili.jpg'
-            }
+                role: 'Operations Manager',
+                feedback: 'I can testify that SheCanCODE has been my bridge to accessing job opportunities and intering in the IT industry. Today, I work at SheCanCODE to keep on re-enforcing the good results they have been achieving for many year now.',
+                image: '/lili.jpg'
+            },
+            {
+                name: 'Elyse Umugabe',
+                role: 'Software Tester',
+                feedback: 'SheCanCODE equiped me with industry level experience that allowed me to secure a job opportunity even before graduating. I am many more of my colleagues at SheCanCODE were able to do so thanks to their ability to simplify even the most complex software development concepts.',
+                image: '/elyse.jpeg'
+            },
         ]
-    },
+
+    }
 };
 
 export default AboutPageFakes;

@@ -1,12 +1,12 @@
 import { FaFacebookF, FaLinkedinIn, FaYoutube, FaTwitter } from 'react-icons/fa';
 import Container from './container';
-import { quickLinks, companyLinks, visionText, tweets } from '../fakeDatas/footerData';
+import { quickLinks, companyLinks, visionText, tweets } from '@/fakeDatas/footerData';
 import Image from 'next/image';
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white py-8 px-6 md:px-[1.563rem] font-ibm">
-            <Container>
+        <footer className="bg-black text-white flex justify-center align-middle py-10 px-6 md:px-[1.563rem] font-ibm">
+            <div className='max-w-screen-xl'>
                 {/* Signup Section */}
                 <div className="flex flex-col md:flex-row justify-between items-center mb-6 px-2">
                     <div className="mb-4 md:mb-0">
@@ -84,7 +84,7 @@ const Footer = () => {
                         <p className='text-xl'>© 2024 ALL RIGHTS RESERVED. Igire Rwanda Organization (Reg. No. 327553) Company Reg. No. 02153193</p>
                     </div>
                 </div>
-            </Container>
+            </div>
         </footer>
     );
 };

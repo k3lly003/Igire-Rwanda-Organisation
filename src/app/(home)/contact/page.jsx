@@ -12,7 +12,7 @@ import {
   LocateIcon,
 } from "lucide-react";
 import { ContactData } from "@/fakeDatas/ContactPageFakes";
-import DefaultBanner from "@/components/DefaultBanner";
+import DefaultBanner from "../components/DefaultBanner";
 
 export default function HeroSection() {
   const { imageSrc, imageAlt, title, description, buttonText } = heroData;
@@ -26,7 +26,7 @@ export default function HeroSection() {
         />
       </div>
       <div className=" lg:flex lg:justify-center w-full mb-20">
-        <div className=" md:py-10 w-full lg:w-[75%] flex flex-col-reverse justify-center items-center md:flex-row md:container ">
+        <div className=" md:py-10 lg:max-w-screen-xl flex flex-col-reverse justify-center items-center md:flex-row md:container ">
           {/* Contact Information Section */}
           <div className=" relative sm:text-center sm:gap-5 items-center md:text-start left-0 bottom-16 md:bottom-0 bg-black text-white flex flex-col justify-evenly px-5 py-10 w-[85%] md:w-[40%] md:left-12">
             <div className="flex flex-col items-center ">

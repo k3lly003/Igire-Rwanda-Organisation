@@ -9,7 +9,7 @@ const CallForAction = ({ CallForActionData }) => {
           <div>
             <h2 className="text-4xl font-bold">{title}</h2>
           </div>
-          <div className="max-w-[90rem]">
+          <div className="max-w-screen-xl">
             <p className="font-ibm text-xl">{description}</p>
           </div>
           <div>

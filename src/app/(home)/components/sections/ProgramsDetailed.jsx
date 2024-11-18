@@ -53,9 +53,9 @@ const ProgramsDetailed = ({ programs }) => {
 
     return (
         <section className="my-12 font-ibm">
-            <Container>
+            <Container className="bg-green-300">
                 {programs.map((program, index) => (
-                    <div key={index} className="mb-12 mx-5">
+                    <div key={index} className="mb-12 mx-24 max-w-screen-xl">
                         <h2 className="text-2xl md:text-3xl font-bold mb-4">{program.title}</h2>
                         <p className="text-base md:text-xl mb-5 text-justify">{program.description}</p>
                         <div className="flex flex-col md:flex-row md:items-start md:gap-6">
