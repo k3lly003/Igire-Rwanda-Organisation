@@ -20,7 +20,7 @@ const Page = () => {
 
       <div className="w-full flex flex-col justify-center items-center">
         <div className="flex flex-col py-14 mx-28 font-ibm max-w-screen-xl">
-          <div className="text-2xl font-bold text-center pb-12">
+          <div className="text-4xl font-bold text-center pb-12">
             Why you Should Join Our Awesome Team
           </div>
 
@@ -34,8 +34,9 @@ const Page = () => {
                 Team work
               </h3>
               <p className="text-gray-600">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
+                Collaborate with a diverse group of talented individuals. Learn
+                from peers and contribute to a supportive community. Work
+                together to achieve common goals.
               </p>
             </div>
 
@@ -48,8 +49,9 @@ const Page = () => {
                 Secured Future
               </h3>
               <p className="text-gray-600">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
+                Gain in-demand skills that are highly sought after by employers.
+                Build a strong foundation for a successful career in technology.
+                Secure financial stability and career advancement opportunities.
               </p>
             </div>
 
@@ -62,8 +64,10 @@ const Page = () => {
                 Impact on community
               </h3>
               <p className="text-gray-600">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
+                Use your skills to make a positive impact on your community.
+                Contribute to innovative projects that solve real-world
+                problems. Empower other women and inspire the next generation of
+                tech leaders.
               </p>
             </div>
 
@@ -76,8 +80,9 @@ const Page = () => {
                 Upgrade Skills
               </h3>
               <p className="text-gray-600">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry.
+                Stay up-to-date with the latest technologies and trends.
+                Continuously learn and grow your skillset. Adapt to the
+                ever-evolving tech industry.
               </p>
             </div>
           </div>
@@ -107,8 +112,8 @@ const Page = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             <div className="p-6 rounded-lg shadow-lg bg-gray-50">
-              <h3 className="text-xl font-bold mb-2">Lorem</h3>
-              <p className="text-gray-600 mb-4">Lorem ipsum</p>
+              <h3 className="text-xl font-bold mb-2">Hiring Manager</h3>
+              <p className="text-gray-600 mb-4">6+ years of experience</p>
               <div className="flex items-center mb-4">
                 <div className="flex items-center text-sm text-gray-500 mr-4">
                   <FaRegClock />
@@ -127,8 +132,8 @@ const Page = () => {
               </a>
             </div>
             <div className="p-6 rounded-lg shadow-lg bg-gray-50">
-              <h3 className="text-xl font-bold mb-2">Lorem</h3>
-              <p className="text-gray-600 mb-4">Lorem ipsum</p>
+              <h3 className="text-xl font-bold mb-2">Project Manager</h3>
+              <p className="text-gray-600 mb-4">6+ years of proffetional experience</p>
               <div className="flex items-center mb-4">
                 <div className="flex items-center text-sm text-gray-500 mr-4">
                   <FaRegClock />
@@ -148,8 +153,8 @@ const Page = () => {
             </div>
 
             <div className="p-6 rounded-lg shadow-lg bg-gray-50">
-              <h3 className="text-xl font-bold mb-2">Lorem</h3>
-              <p className="text-gray-600 mb-4">Lorem ipsum</p>
+              <h3 className="text-xl font-bold mb-2">Backend Engineer</h3>
+              <p className="text-gray-600 mb-4">Senior (9+ years of experience)</p>
               <div className="flex items-center mb-4">
                 <div className="flex items-center text-sm text-gray-500 mr-4">
                   <FaRegClock />
@@ -168,8 +173,8 @@ const Page = () => {
               </a>
             </div>
             <div className="p-6 rounded-lg shadow-lg bg-gray-50">
-              <h3 className="text-xl font-bold mb-2">Lorem</h3>
-              <p className="text-gray-600 mb-4">Lorem ipsum</p>
+              <h3 className="text-xl font-bold mb-2">Assistand Frontend Facilitator</h3>
+              <p className="text-gray-600 mb-4">2-3 years of experience</p>
               <div className="flex items-center mb-4">
                 <div className="flex items-center text-sm text-gray-500 mr-4">
                   <FaRegClock />
@@ -189,7 +194,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Subscribe Section */}
         <div className="py-10 items-center text-center font-ibm">
           <h2 className="text-2xl font-bold mb-4">SUBSCRIBE</h2>
